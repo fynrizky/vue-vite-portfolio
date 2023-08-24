@@ -1,0 +1,49 @@
+:root{
+
+    --background: rgb(200, 200, 200);
+
+    --color-1: #65c763;
+    --color-2: #9fdbb1;
+    --color-3: #7dcfb6;
+    --color-4: #00caac;
+    --color-5: #1d896a;
+    --color-6: #fff;
+    --color-7: rgb(244, 244, 244);
+    --color-8: #1d896a;
+    
+    --fbblue-c  :#385898;
+    --insta-c   :radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    --twitter-c :#000000;
+    --github-c  :#161b22;
+    --linkedin-c:#0a66c2;
+    
+    
+    --text-color-1: #fff;
+    --text-color-2: rgb(21, 21, 21);
+    --text-color-3: rgb(21, 21, 21);
+    --text-color-4: #fff;
+    --text-color-5: #fff;
+    --text-color-6: rgb(21, 21, 21);
+    --text-color-7: #0f4c3b;
+}
+:root[data-theme='dark'] {
+    --background: rgb(28, 27, 27);
+
+    --color-1: #08090a;
+    --color-2: #a7a2a9;
+    --color-3: #f4f7f5;
+    --color-4: #575a5e;
+    --color-5: #5a5a5a;
+    --color-6: rgb(21, 21, 21);
+    --color-7: rgb(69, 69, 69);
+    --color-8: #222823;
+
+    --text-color-1: #fff;
+    --text-color-2: rgb(252, 252, 252);
+    --text-color-3: rgb(40, 40, 40);
+    --text-color-4: rgb(241, 241, 241);
+    --text-color-5: rgb(240, 240, 240);
+    --text-color-6: #fff;
+    --text-color-7: rgb(240, 240, 240);
+
+}
