@@ -160,7 +160,7 @@ export default {
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
-    margin-top: -40px;
+    margin-top: -10px;
     // min-height: 80vh;
     padding-top: 40px;
     box-shadow: 0px -2px 12px 5px rgb(0,0,0,0.5);
