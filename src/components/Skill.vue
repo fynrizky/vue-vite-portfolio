@@ -413,15 +413,6 @@ export default {
   transform: scale(1.2);
 }
 
-@keyframes up-bottom {
-  0% {
-    transform: translateY(0);
-  }
-  100%{
-    transform: translateY(-5px);
-  }
-}
-
 .wiki-overlay {
   position: fixed;
   width: 100%;

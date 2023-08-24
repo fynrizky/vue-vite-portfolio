@@ -68,3 +68,25 @@ body {
       padding: 0;
   }
 }
+
+@keyframes slide {
+  0% {
+      transform: translateX(-5%);
+  }
+
+  100% {
+      transform: translateX(5%);
+  }
+}
+
+@keyframes up-bottom {
+  0% {
+      transform: translateX(-3%);
+      transform: translateY(3%);
+  }
+
+  100% {
+      transform: translateX(3%);
+      transform: translateY(-3%);
+  }
+}
