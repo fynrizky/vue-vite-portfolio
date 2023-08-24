@@ -410,7 +410,7 @@ export default {
   animation: up-bottom 1s ease-in-out alternate infinite;
 }
 
-.skill-icon:hover img {
+.animate__bounceIn.skill-icon:hover img {
   transform: scale(1.2);
 }
 
