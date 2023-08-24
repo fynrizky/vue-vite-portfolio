@@ -164,7 +164,6 @@ export default {
         border-top-right-radius:50px;
         border-bottom-left-radius:10px;
         border-bottom-right-radius:10px;
-        background-color: white;
         box-shadow: 0px -2px 12px 5px rgb(0,0,0,0.5) ;
     }
     .p-card .title-ptf{
