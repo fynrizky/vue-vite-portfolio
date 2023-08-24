@@ -157,9 +157,9 @@ export default {
         z-index: 0;
         background: var(--color-7) ;
         padding-top: 40px;
-        // padding-bottom: 40px;
+        padding-bottom: 40px;
         margin-top: -30px;
-        min-height: 100vh;
+        // min-height: 100vh;
         border-top-left-radius:50px;
         border-top-right-radius:50px;
         border-bottom-left-radius:10px;
