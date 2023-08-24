@@ -77,7 +77,7 @@
         <!-- {{skill.backend}} -->
         <!-- Back-End  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'backend' ? 'd-flex ' : 'd-none'"
           v-for="i in skill.backend"
           :key="i"
@@ -96,7 +96,7 @@
         </div>
         <!-- BE-Framework  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'backendfw' ? 'd-flex ' : 'd-none'"
           v-for="i in skill.backendfw"
           :key="i"
@@ -117,7 +117,7 @@
         <!-- {{ skill.frontend }} -->
         <!-- Front-End Basic  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'frontend' ? 'd-flex' : 'd-none'"
           v-for="i in skill.frontend"
           :key="i"
@@ -134,7 +134,7 @@
         
         <!-- Front-End Framework -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'frontendfw' ? 'd-flex' : 'd-none'"
           v-for="i in skill.frontendfw"
           :key="i"
@@ -151,7 +151,7 @@
        
         <!-- Database -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'database' ? 'd-flex' : 'd-none'"
           v-for="i in skill.database"
           :key="i"
@@ -185,7 +185,7 @@
         
         <!-- Tools  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'tools' ? 'd-flex' : 'd-none'"
           v-for="i in skill.tool"
           :key="i"
@@ -409,9 +409,11 @@ export default {
   transition: all 0.3s;
   animation: up-bottom 1s ease-in-out alternate infinite;
 }
+
 .skill-icon:hover img {
   transform: scale(1.2);
 }
+
 
 .wiki-overlay {
   position: fixed;
