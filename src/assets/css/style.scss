@@ -79,14 +79,14 @@ body {
   }
 }
 
-@keyframes up-bottom {
-  0% {
-      transform: translateX(-3%);
-  }
-  50%{
-      transform: translateY(3%);    
-  }
-  100% {
-      transform: translateX(3%);
-  }
-}
+// @keyframes up-bottom {
+//   0% {
+//       transform: translateX(-3%);
+//       transform: translateY(3%);
+//   }
+
+//   100% {
+//       transform: translateX(3%);
+//       transform: translateY(-3%);
+//   }
+// }
