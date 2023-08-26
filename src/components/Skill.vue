@@ -288,7 +288,7 @@ export default {
           //   icon: new URL('../assets/img/icon/front-end/jquery.svg', import.meta.url).href,
           // },
         {
-          name: "Redux_(Javascript_library)",
+          name: "Redux_(JavaScript_library)",
           icon: new URL('../assets/img/icon/tools/redux.svg', import.meta.url).href,
         },
       ],
