@@ -21,13 +21,13 @@
       >
         Back-End
       </div>
-      <div
+      <!-- <div
         class="tab-item"
         :class="tab == 'backendfw' ? 'active' : ''"
         @click="tab = 'backendfw'"
       >
         BE-FW
-      </div>
+      </div> -->
       <div
         class="tab-item"
         :class="tab == 'frontend' ? 'active' : ''"
@@ -49,13 +49,13 @@
       >
         Database
       </div>
-      <!-- <div
+      <div
         class="tab-item"
         :class="tab == 'lib' ? 'active' : ''"
         @click="tab = 'lib'"
       >
         Library
-      </div> -->
+      </div>
       <div
         class="tab-item"
         :class="tab == 'tools' ? 'active' : ''"
@@ -94,8 +94,9 @@
             />
           </div>
         </div>
+
         <!-- BE-Framework  -->
-        <div
+        <!-- <div
           class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'backendfw' ? 'd-flex ' : 'd-none'"
           v-for="i in skill.backendfw"
@@ -112,7 +113,7 @@
               loading="lazy"
             />
           </div>
-        </div>
+        </div> -->
 
         <!-- {{ skill.frontend }} -->
         <!-- Front-End Basic  -->
@@ -167,7 +168,7 @@
         </div>
 
         <!-- Library  -->
-        <!-- <div
+        <div
           class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'lib' ? 'd-flex' : 'd-none'"
           v-for="i in skill.library"
@@ -181,7 +182,7 @@
           >
             <img :src="i.icon" :alt="i.icon" />
           </div>
-        </div> -->
+        </div>
         
         <!-- Tools  -->
         <div
@@ -240,16 +241,16 @@ export default {
           },
           
         ],
-        backendfw: [
-          {
-            name: "Express.js",
-            icon: new URL('../assets/img/icon/back-end/express.svg', import.meta.url).href,
-          },
-          {
-            name: "Laravel",
-            icon: new URL('../assets/img/icon/back-end/laravel2.svg', import.meta.url).href,
-          },
-        ],
+        // backendfw: [
+        //   {
+        //     name: "Express.js",
+        //     icon: new URL('../assets/img/icon/back-end/express.svg', import.meta.url).href,
+        //   },
+        //   {
+        //     name: "Laravel",
+        //     icon: new URL('../assets/img/icon/back-end/laravel2.svg', import.meta.url).href,
+        //   },
+        // ],
         frontend: [
           {
             name: "JavaScript",
@@ -281,13 +282,21 @@ export default {
             icon: new URL('../assets/img/icon/back-end/firebase-1.svg', import.meta.url).href,
           },
         ],
-        // library:[
-        //   {
-        //     name: "JQuery",
-        //     icon: new URL('../assets/img/icon/front-end/jquery.svg', import.meta.url).href,
-        //   },
-        // ],
-        tool: [
+        library:[
+          // {
+          //   name: "JQuery",
+          //   icon: new URL('../assets/img/icon/front-end/jquery.svg', import.meta.url).href,
+          // },
+        {
+          name: "Redux_(Javascript_library)",
+          icon: new URL('../assets/img/icon/tools/redux.svg', import.meta.url).href,
+        },
+      ],
+      tool: [
+          {
+            name: "TypeScript",
+            icon: new URL('../assets/img/icon/tools/typescript.svg', import.meta.url).href,
+          },
           {
             name: "Laragon ",
             icon: new URL('../assets/img/icon/tools/laragon.svg', import.meta.url).href,
