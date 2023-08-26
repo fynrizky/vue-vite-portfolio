@@ -298,7 +298,7 @@ export default {
             icon: new URL('../assets/img/icon/tools/typescript.svg', import.meta.url).href,
           },
           {
-            name: "Laragon ",
+            name: "Web_server",
             icon: new URL('../assets/img/icon/tools/laragon.svg', import.meta.url).href,
           },
          
