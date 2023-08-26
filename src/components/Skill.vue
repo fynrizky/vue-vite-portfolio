@@ -260,16 +260,15 @@ export default {
             name: "Sass_(style_sheet_language)",
             icon: new URL('../assets/img/icon/front-end/sass-1.svg', import.meta.url).href,
           },
-          {
-            name: "Tailwind_CSS",
-            icon: new URL('../assets/img/icon/front-end/tailwind-css.svg', import.meta.url).href,
-          },
-          
         ],
         frontendfw: [
           {
             name: "Bootstrap_(front-end_framework)",
             icon: new URL('../assets/img/icon/front-end/bootstrap-5.svg', import.meta.url).href,
+          },
+          {
+            name: "Tailwind_CSS",
+            icon: new URL('../assets/img/icon/front-end/tailwind-css.svg', import.meta.url).href,
           },
         ],
         database:[
