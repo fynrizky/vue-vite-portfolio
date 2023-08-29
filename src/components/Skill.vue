@@ -424,7 +424,7 @@ export default {
 }
 
 
-.skill-icon:hover img{
+.skill-icon img:hover{
   transform: scale(1.2);
 }
 
