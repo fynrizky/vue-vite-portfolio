@@ -77,11 +77,10 @@
         <!-- {{skill.backend}} -->
         <!-- Back-End  -->
         <div
-          class="col animate__bounceIn"
+          class="col"
           :class="tab == 'all' || tab == 'backend' ? 'd-flex ' : 'd-none'"
           v-for="i in skill.backend"
           :key="i"
-          :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
             class="skill-icon align-items-center "
@@ -420,7 +419,6 @@ export default {
 }
 
 .skill-icon:hover img {
-  animation-play-state: paused;
   transform: scale(1.2);
 }
 
