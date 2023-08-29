@@ -419,12 +419,12 @@ export default {
   transform-origin: center center;
 }
 
-.skill-icon.animated img {
+.animated img {
   animation: up-bottom 1s ease-in-out alternate infinite;
 }
 
 
-.skill-icon.animated:hover img {
+.animated:hover img {
   transform: scale(1.2);
 }
 
