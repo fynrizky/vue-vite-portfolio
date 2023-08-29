@@ -416,14 +416,15 @@ export default {
   align-items: center;
   padding: 10px;
   transition: all 0.3s;
+  transform-origin: center center;
 }
 
-.animated img {
+.skill-icon.animated img {
   animation: up-bottom 1s ease-in-out alternate infinite;
 }
 
 
-.animated:hover img{
+.skill-icon.animated:hover img{
   transform: scale(1.2);
 }
 
