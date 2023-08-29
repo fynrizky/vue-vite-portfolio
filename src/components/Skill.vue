@@ -77,10 +77,11 @@
         <!-- {{skill.backend}} -->
         <!-- Back-End  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'backend' ? 'd-flex ' : 'd-none'"
           v-for="i in skill.backend"
           :key="i"
+          :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
             class="skill-icon align-items-center "
@@ -117,10 +118,11 @@
         <!-- {{ skill.frontend }} -->
         <!-- Front-End Basic  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'frontend' ? 'd-flex' : 'd-none'"
           v-for="i in skill.frontend"
           :key="i"
+          :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
             class="skill-icon align-items-center p-2"
@@ -133,10 +135,11 @@
         
         <!-- Front-End Framework -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'frontendfw' ? 'd-flex' : 'd-none'"
           v-for="i in skill.frontendfw"
           :key="i"
+          :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
             class="skill-icon align-items-center p-2"
@@ -149,10 +152,11 @@
        
         <!-- Database -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'database' ? 'd-flex' : 'd-none'"
           v-for="i in skill.database"
           :key="i"
+          :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
             class="skill-icon align-items-center p-2"
@@ -165,10 +169,11 @@
 
         <!-- Library  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'lib' ? 'd-flex' : 'd-none'"
           v-for="i in skill.library"
           :key="i"
+          :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
             class="skill-icon align-items-center p-2"
@@ -181,10 +186,11 @@
         
         <!-- Tools  -->
         <div
-          class="col"
+          class="col animate__bounceIn"
           :class="tab == 'all' || tab == 'tools' ? 'd-flex' : 'd-none'"
           v-for="i in skill.tool"
           :key="i"
+          :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
             class="skill-icon align-items-center p-2"
@@ -407,10 +413,9 @@ export default {
 .skill-icon img {
   width: 100%;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   transition: all 0.3s;
   animation: up-bottom 1s ease-in-out alternate infinite;
-  transform-origin: center center;
 }
 
 .skill-icon:hover img {
