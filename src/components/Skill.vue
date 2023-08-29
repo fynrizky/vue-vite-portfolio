@@ -427,7 +427,7 @@ export default {
   transition : transform 0.3s ease-in-out;
 }
 .skill-icon.animated:hover{
-  transform: scale(1);
+  transform: scale(1.2);
 }
 
 
