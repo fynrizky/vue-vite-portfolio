@@ -88,7 +88,6 @@
             @click="getContent(i.name)"
           >
             <img 
-              class="imgIcon"
               :src="i.icon"
               :alt="i.icon"
               loading="lazy"
@@ -420,12 +419,12 @@ export default {
   transform-origin: center center;
 }
 
-.skill-icon.animated img {
-  animation: up-bottom 1s ease-in-out alternate infinite;
-}
+// .skill-icon.animated img {
+//   animation: up-bottom 1s ease-in-out alternate infinite;
+// }
 
 
-.skill-icon.animated:hover .imgIcon{
+.skill-icon.animated:hover img{
   transform: scale(1.2);
 }
 
