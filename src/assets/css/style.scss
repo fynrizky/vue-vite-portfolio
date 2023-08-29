@@ -79,14 +79,12 @@ body {
   }
 }
 
-// @keyframes up-bottom {
-//   0% {
-//       transform: translateX(-3%);
-//       transform: translateY(3%);
-//   }
+@keyframes up-bottom {
+  0% {
+      transform: translate(-3%, 3%);
+  }
 
-//   100% {
-//       transform: translateX(3%);
-//       transform: translateY(-3%);
-//   }
-// }
+  100% {
+      transform: translate(3%, -3%);
+  }
+}

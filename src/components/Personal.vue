@@ -12,7 +12,6 @@
             'Vue/React',
             'Back-End?',
             'PHP, Nodejs',
-            'Go-lang',
             'Database?',
             'Mysql'
 
@@ -31,9 +30,8 @@
             </div>
           <div class="profil">
             <div class="desc">
-              I have experience in web developer Using PHP since 2019. Saya telah berkembang
-              Web-Apps menggunakan PHP, javascript, Laravel Framework,
-              Bootsrap, Tailwind, Reactjs, VueJs.
+              I have experience in web developer Using PHP since 2019. I'm development Web apps using PHP, javascript, typescript, Nodejs
+              Bootsrap, Tailwind, Reactjs/Vue. But i'm familiar with PHP and javascript language now.
             </div>
             <div class="foto">
               <!-- <img src="@/assets/img/hafidz.webp" alt="" /> -->
