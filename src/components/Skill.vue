@@ -420,6 +420,7 @@ export default {
 }
 
 .skill-icon:hover img {
+  animation-play-state: paused;
   transform: scale(1.2);
 }
 
