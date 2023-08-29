@@ -84,7 +84,7 @@
           :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
-            class="skill-icon align-items-center "
+            class="skill-icon animated align-items-center"
             @click="getContent(i.name)"
           >
             <img
@@ -104,7 +104,7 @@
           :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
-            class="skill-icon align-items-center"
+            class="skill-icon animated align-items-center"
             @click="getContent(i.name)"
           >
             <img
@@ -125,7 +125,7 @@
           :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
-            class="skill-icon align-items-center p-2"
+            class="skill-icon animated align-items-center p-2"
             @click="getContent(i.name)"
             v-if="tab == 'all' || tab == 'frontend'"
           >
@@ -142,7 +142,7 @@
           :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
-            class="skill-icon align-items-center p-2"
+            class="skill-icon animated align-items-center p-2"
             @click="getContent(i.name)"
             v-if="tab == 'all' || tab == 'frontendfw'"
           >
@@ -159,7 +159,7 @@
           :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
-            class="skill-icon align-items-center p-2"
+            class="skill-icon animated align-items-center p-2"
             @click="getContent(i.name)"
             v-if="tab == 'all' || tab == 'database'"
           >
@@ -176,7 +176,7 @@
           :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
-            class="skill-icon align-items-center p-2"
+            class="skill-icon animated align-items-center p-2"
             @click="getContent(i.name)"
             v-if="tab == 'all' || tab == 'lib'"
           >
@@ -193,7 +193,7 @@
           :style="{ animationDelay: (index + 1) * 200 + 'ms' }"
         >
           <div
-            class="skill-icon align-items-center p-2"
+            class="skill-icon animated align-items-center p-2"
             @click="getContent(i.name)"
             v-if="tab == 'all' || tab == 'tools'"
           >
@@ -410,13 +410,19 @@ export default {
   min-height: 80px;
   display: flex;
 }
+
 .skill-icon img {
   width: 100%;
   align-items: center;
   padding: 10px;
   transition: all 0.3s;
+  transform-origin: center center;
+}
+
+.animated {
   animation: up-bottom 1s ease-in-out alternate infinite;
 }
+
 
 .skill-icon:hover img {
   transform: scale(1.2);
