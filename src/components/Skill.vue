@@ -424,8 +424,7 @@ export default {
 }
 
 
-.skill-icon.animated:hover img{
-  animation: up-bottom 1s ease-in-out alternate infinite;
+.skill-icon.animated:hover{
   transform: scale(1.2);
 }
 
