@@ -368,8 +368,8 @@ export default {
   display: flex;
 }
 .tab::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
 }
 /* Track */
 .tab::-webkit-scrollbar-track {
@@ -414,7 +414,7 @@ export default {
 .skill-icon img {
   width: 100%;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   transition: all 0.3s;
   transform-origin: center center;
 }
@@ -427,7 +427,7 @@ export default {
   transition : transform 0.3s ease-in-out;
 }
 .skill-icon.animated:hover{
-  transform: scale(1.2);
+  transform: scale(1);
 }
 
 
