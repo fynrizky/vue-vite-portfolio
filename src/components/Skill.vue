@@ -421,10 +421,11 @@ export default {
 
 .skill-icon.animated img {
   animation: up-bottom 1s ease-in-out alternate infinite;
-  transition : transform 0.3s ease-in-out;
 }
 
-
+.skill-icon.animated{
+  transition : transform 0.3s ease-in-out;
+}
 .skill-icon.animated:hover{
   transform: scale(1.2);
 }
