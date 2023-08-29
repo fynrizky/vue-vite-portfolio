@@ -416,7 +416,7 @@ export default {
   padding: 5px;
   transition: all 0.3s;
   animation: up-bottom 1s ease-in-out alternate infinite;
-  transform: center center;
+  transform-origin: center center;
 }
 
 .skill-icon:hover img {
