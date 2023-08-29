@@ -87,7 +87,8 @@
             class="skill-icon animated align-items-center"
             @click="getContent(i.name)"
           >
-            <img
+            <img 
+              class="imgIcon"
               :src="i.icon"
               :alt="i.icon"
               loading="lazy"
@@ -424,7 +425,7 @@ export default {
 }
 
 
-.skill-icon.animated:hover{
+.skill-icon.animated:hover .imgIcon{
   transform: scale(1.2);
 }
 
