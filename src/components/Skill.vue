@@ -413,12 +413,12 @@ export default {
 .skill-icon img {
   width: 100%;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   transition: all 0.3s;
   animation: up-bottom 1s ease-in-out alternate infinite;
 }
 
-.skill-icon img:hover {
+.skill-icon:hover img {
   transform: scale(1.2);
 }
 
