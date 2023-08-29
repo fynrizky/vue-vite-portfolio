@@ -416,7 +416,6 @@ export default {
   align-items: center;
   padding: 10px;
   transition: all 0.3s;
-  transform-origin: center center;
 }
 
 .animated img {
@@ -424,7 +423,7 @@ export default {
 }
 
 
-.skill-icon img:hover{
+.animated:hover img{
   transform: scale(1.2);
 }
 
