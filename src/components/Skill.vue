@@ -236,8 +236,8 @@ export default {
             icon: new URL('../assets/img/icon/back-end/nodejs.svg', import.meta.url).href,
           },
           {
-            name: "Go_(programming_language)",
-            icon: new URL('../assets/img/icon/back-end/golang.svg', import.meta.url).href,
+            name: "Rust_(programming_language)",
+            icon: new URL('../assets/img/icon/back-end/rust-svgrepo.svg', import.meta.url).href,
           },
           
         ],
