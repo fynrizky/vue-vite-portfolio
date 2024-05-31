@@ -237,7 +237,7 @@ export default {
           },
           {
             name: "Rust_(programming_language)",
-            icon: new URL('../assets/img/icon/back-end/rust-svgrepo.svg', import.meta.url).href,
+            icon: new URL('../assets/img/icon/back-end/rust-lang.svg', import.meta.url).href,
           },
           
         ],
