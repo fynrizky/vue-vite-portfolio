@@ -415,7 +415,7 @@ export default {
   padding: 0px 5px;
   background: var(--color-6);
   // background-image: linear-gradient(15deg, var(--secondary), var(--primary));
-  border-radius: 100%;
+  border-radius: 15%;
   min-height: 70px;
   display: flex;
 }
