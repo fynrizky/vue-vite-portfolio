@@ -5,7 +5,7 @@
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
     >
-        <div class="title">Education</div>
+        <div class="title">School</div>
         <Splide>
             <SplideSlide>
                 <div class="edu-card">
