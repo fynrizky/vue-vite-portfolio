@@ -36,8 +36,8 @@
                     <div v-if="!form.desc ? errors.errdesc : ''" class="alert alert-danger">{{ errors.errdesc }}</div>
                 </div>
                 
-                    <button v-if="!isLoad" class="btn btn-success btn-lg form-control contact-button" type="submit"> Save</button>
-                    <button v-if="isLoad" class="btn btn-secondary btn-sm form-control contact-button" disabled>
+                    <button v-if="!isLoad" class=" btn-lg form-control contact-button" type="submit"> Save</button>
+                    <button v-if="isLoad" class="btn btn-secondary btn-lg form-control contact-button" disabled>
                         <div role="status" class="spinner-border">
                             <span class="sr-only"></span>
                         </div>
@@ -52,7 +52,7 @@
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                     <li class="nav-item"><a href="https://www.instagram.com/_fynrizky/" class="nav-link px-2 text-muted">@_fynrizky</a></li>
                 </ul>
-                <p class="copy-2023 text-center text-muted">&copy; 2023 Rizky Fiyannur</p>
+                <p class="copy-2023 text-center text-muted">&copy; 2024 Rizky Fiyannur Aka Fynrizky</p>
             </footer>
         </div>
     </div>
@@ -202,6 +202,11 @@ export default {
             margin-bottom: 20px;
         }
         
+    }
+    .contact-button{
+        background-color: var(--color-8);
+        font-weight: 800;
+        color: var(--text-color-1);
     }
         .container-footer{
 

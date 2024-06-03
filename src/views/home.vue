@@ -6,7 +6,7 @@
                 <div class="w-50"></div>
                 <div class="w-50 px-3">
                     <div class="form-check form-switch float-end" style="position: relative; z-index: ;10000001">
-                        <i :style="status? 'color: green; font-size: 20px;' : 'font-size:20px;'" :class="status ? 'fa fa-moon ': 'fa fa-sun'"></i>
+                        <i :style="status? 'color: black; font-size: 20px;' : 'color: yellow; font-size:20px;'" :class="status ? 'fa fa-moon icon-i': 'fa fa-sun icon-i'"></i>
                         <input class="form-check-input pointer"
                             v-model="status"
                             type="checkbox"
@@ -90,8 +90,18 @@ export default {
         position: relative;
         // background: var(--color-6);
     }
+    .form-check{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .icon-i{
+        position: absolute;
+        left: 16px;
+        bottom: 0;
+    }
     .form-check-input:checked {
-        background-color: #61c974;
+        background-color: hsl(131, 49%, 58%);
         border-color: #61c974;
         
     }
