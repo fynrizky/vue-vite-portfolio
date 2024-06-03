@@ -265,7 +265,7 @@ export default {
         frontendfw: [
           {
             name: "React_(JavaScript_library)",
-            icon: new URL('../assets/img/icon/front-end/vue-js.svg', import.meta.url).href,
+            icon: new URL('../assets/img/icon/front-end/react-js.svg', import.meta.url).href,
           },
           {
             name: "Vue.js",
