@@ -236,7 +236,7 @@ export default {
             icon: new URL('../assets/img/icon/back-end/nodejs.svg', import.meta.url).href,
           },
           {
-            name: "Golang_(programming_language)",
+            name: "Go_(programming_language)",
             icon: new URL('../assets/img/icon/back-end/golang.svg', import.meta.url).href,
           },
           
@@ -412,19 +412,19 @@ export default {
   margin-right: 10px;
 }
 .skill-icon {
-  padding: 0px 10px;
+  padding: 0px 5px;
   background: var(--color-6);
   // background-image: linear-gradient(15deg, var(--secondary), var(--primary));
-  border-radius: 10px;
-  min-height: 80px;
+  border-radius: 100%;
+  min-height: 70px;
   display: flex;
 }
 
 .skill-icon img {
   width: 100%;
   align-items: center;
-  padding: 5px;
-  transition: all 0.3s;
+  padding: 10px;
+  transition: all 0.5s;
   transform-origin: center center;
 }
 
@@ -448,7 +448,7 @@ export default {
   left: 0;
   background: #31678966;
   z-index: 99998;
-  transition: all 0.3s ease-in;
+  transition: all 0.5s ease-in;
 }
 .wiki {
   background: var(--background);
@@ -459,7 +459,7 @@ export default {
   overflow: auto;
   opacity: 0;
   z-index: 99999;
-  transition: all 0.3s ease-in;
+  transition: all 0.5s ease-in;
 }
 .wiki.active {
   opacity: 1;
