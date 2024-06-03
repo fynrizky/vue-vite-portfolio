@@ -149,7 +149,7 @@
         <div class="timeline d-flex align-items-end">
           <div class="timeline-sidebar">
             <div
-              class="ts-list pointer"
+              class="ts-list pointer-ex"
               :class="tab == 1 ? 'active shadow-sm' : ''"
               @click="tab = 1"
             >
@@ -160,7 +160,7 @@
               <div class="ts-pos">Software Engineer PHP</div> -->
             </div>
             <div
-              class="ts-list pointer"
+              class="ts-list pointer-ex"
               :class="tab == 2 ? 'active shadow-sm' : ''"
               @click="tab = 2"
             >
@@ -168,7 +168,7 @@
               <div class="ts-pos">Develop Website Application Service Printer</div>
             </div>
             <div
-              class="ts-list pointer"
+              class="ts-list pointer-ex"
               :class="tab == 3 ? 'active shadow-sm' : ''"
               @click="tab = 3"
             >
