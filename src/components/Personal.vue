@@ -91,7 +91,7 @@
     right: 0;
     bottom: 0;
     background-image: url("../assets/img/pattern.jpg");
-    background-size: 20%;
+    background-size: 50%;
     border-radius: 20px;
     opacity: 0.1;
     background-attachment: fixed;
