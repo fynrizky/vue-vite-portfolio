@@ -236,8 +236,8 @@ export default {
             icon: new URL('../assets/img/icon/back-end/nodejs.svg', import.meta.url).href,
           },
           {
-            name: "Rust_(programming_language)",
-            icon: new URL('../assets/img/icon/back-end/rust-lang-icon.svg', import.meta.url).href,
+            name: "Golang_(programming_language)",
+            icon: new URL('../assets/img/icon/back-end/golang.svg', import.meta.url).href,
           },
           
         ],
@@ -257,18 +257,19 @@ export default {
             icon: new URL('../assets/img/icon/front-end/javascript-1.svg', import.meta.url).href,
           },
           {
-            name: "Sass_(style_sheet_language)",
-            icon: new URL('../assets/img/icon/front-end/sass-1.svg', import.meta.url).href,
+            name: "HTML",
+            icon: new URL('../assets/img/icon/front-end/html-1.svg', import.meta.url).href,
           },
+        
         ],
         frontendfw: [
           {
-            name: "Bootstrap_(front-end_framework)",
-            icon: new URL('../assets/img/icon/front-end/bootstrap-5.svg', import.meta.url).href,
+            name: "React_(JavaScript_library)",
+            icon: new URL('../assets/img/icon/front-end/vue-js.svg', import.meta.url).href,
           },
           {
-            name: "Tailwind_CSS",
-            icon: new URL('../assets/img/icon/front-end/tailwind-css.svg', import.meta.url).href,
+            name: "Vue.js",
+            icon: new URL('../assets/img/icon/front-end/vue-js.svg', import.meta.url).href,
           },
         ],
         database:[
@@ -282,13 +283,21 @@ export default {
           },
         ],
         library:[
-          // {
-          //   name: "JQuery",
-          //   icon: new URL('../assets/img/icon/front-end/jquery.svg', import.meta.url).href,
-          // },
         {
           name: "Redux_(JavaScript_library)",
           icon: new URL('../assets/img/icon/tools/redux.svg', import.meta.url).href,
+        },
+        {
+          name: "Sass_(style_sheet_language)",
+          icon: new URL('../assets/img/icon/front-end/sass-1.svg', import.meta.url).href,
+        },
+        {
+          name: "Bootstrap_(front-end_framework)",
+          icon: new URL('../assets/img/icon/front-end/bootstrap-5.svg', import.meta.url).href,
+        },
+        {
+          name: "Tailwind_CSS",
+          icon: new URL('../assets/img/icon/front-end/tailwind-css.svg', import.meta.url).href,
         },
       ],
       tool: [
