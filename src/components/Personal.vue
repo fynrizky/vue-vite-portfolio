@@ -30,8 +30,10 @@
             </div>
           <div class="profil">
             <div class="desc">
-              I have experience in web developer Using PHP since 2019. I'm development Web apps using PHP, javascript, typescript, Nodejs
-              Bootsrap, Tailwind, Reactjs/Vue. But i'm familiar with PHP and javascript language now.
+              I'm a Web developer, I'm interested in Front-End and Back-End.
+              I have basic knowledge of HTML, CSS, Javascript, PHP and Nodejs and Database Mysql.
+              I am also interested in the field of Data Analysis.
+              <!-- My motivation for learning is that I want  to be a developer who is behind the scenes where technology is created.  -->
             </div>
             <div class="foto">
               <!-- <img src="@/assets/img/hafidz.webp" alt="" /> -->

@@ -415,7 +415,7 @@ export default {
   padding: 0px 5px;
   background: var(--color-6);
   // background-image: linear-gradient(15deg, var(--secondary), var(--primary));
-  border-radius: 15%;
+  border-radius: 15px;
   min-height: 70px;
   display: flex;
 }
@@ -423,7 +423,7 @@ export default {
 .skill-icon img {
   width: 100%;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   transition: all 0.5s;
   transform-origin: center center;
 }
@@ -447,8 +447,8 @@ export default {
   top: 0;
   left: 0;
   background: #31678966;
-  z-index: 99998;
-  transition: all 0.5s ease-in;
+  z-index: 99999;
+  // transition: all 0.3s ease-in-out;
 }
 .wiki {
   background: var(--background);
@@ -459,7 +459,7 @@ export default {
   overflow: auto;
   opacity: 0;
   z-index: 99999;
-  transition: all 0.5s ease-in;
+  transition: all 0.7s ease-in;
 }
 .wiki.active {
   opacity: 1;
