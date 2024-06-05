@@ -93,7 +93,7 @@
     right: 0;
     bottom: 0;
     background-image: url("../assets/img/pattern.jpg");
-    background-size: 50%;
+    background-size: 20%;
     border-radius: 20px;
     opacity: 0.1;
     background-attachment: fixed;
@@ -117,7 +117,7 @@
   .foto {
     position: relative;
     // overflow-x: hidden;
-    width: 40%;
+    width: 20%;
   }
   .foto img {
     position: absolute;

@@ -76,7 +76,7 @@
         right: 0;
         bottom: 0;
         background-image: url(../assets/img/pattern.jpg);
-        background-size: 100%;
+        background-size: 80%;
         border-radius: 20px;
         opacity: 0.1;
     }
@@ -102,7 +102,7 @@
         font-size: 0.7em;
     }
     .edu-img{
-        position: absolute;
+        position: absolute;;
         right: -20px;
         bottom: 0px;
         font-size: 6em;
