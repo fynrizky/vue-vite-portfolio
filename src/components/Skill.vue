@@ -235,10 +235,6 @@ export default {
             name: "Node.js",
             icon: new URL('../assets/img/icon/back-end/nodejs.svg', import.meta.url).href,
           },
-          {
-            name: "Go_(programming_language)",
-            icon: new URL('../assets/img/icon/back-end/golang.svg', import.meta.url).href,
-          },
           
         ],
         // backendfw: [
@@ -256,10 +252,6 @@ export default {
             name: "JavaScript",
             icon: new URL('../assets/img/icon/front-end/javascript-1.svg', import.meta.url).href,
           },
-          {
-            name: "HTML",
-            icon: new URL('../assets/img/icon/front-end/html-1.svg', import.meta.url).href,
-          },
         
         ],
         frontendfw: [
@@ -274,8 +266,8 @@ export default {
         ],
         database:[
           {
-            name: "MySQL",
-            icon: new URL('../assets/img/icon/back-end/mysql-4.svg', import.meta.url).href,
+            name: "PostgreSQL",
+            icon: new URL('../assets/img/icon/back-end/postgresql.svg', import.meta.url).href,
           },
           {
             name: "Firebase",
@@ -290,10 +282,6 @@ export default {
         {
           name: "Sass_(style_sheet_language)",
           icon: new URL('../assets/img/icon/front-end/sass-1.svg', import.meta.url).href,
-        },
-        {
-          name: "Bootstrap_(front-end_framework)",
-          icon: new URL('../assets/img/icon/front-end/bootstrap-5.svg', import.meta.url).href,
         },
         {
           name: "Tailwind_CSS",
