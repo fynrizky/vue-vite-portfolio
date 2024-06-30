@@ -5,15 +5,16 @@
         
         <VueWriter
           :array="[
-            'Front-End?',
-            'Bootstrap', 
+            'Front-End?', 
             'Javascript', 
             'SCSS, Tailwind',
             'Vue/React',
+            'Redux',
             'Back-End?',
             'PHP, Nodejs',
             'Database?',
-            'Mysql'
+            'PostgreSQL and Mysql',
+            'Firebase',
 
           ]"
           :eraseSpeed="40"
@@ -31,12 +32,13 @@
           <div class="profil">
             <div class="desc">
               I'm a Web developer, I'm interested in Front-End and Back-End.
-              I have basic knowledge of HTML, CSS, Javascript, PHP and Nodejs and Database Mysql.
+              I have basic skill of Javascript for front-end. PHP, Nodejs for backend. Database Firebase, Mysql and PostgreSQL.
               I am also interested in the field of Data Analysis.
+
               <!-- My motivation for learning is that I want  to be a developer who is behind the scenes where technology is created.  -->
             </div>
             <div class="foto">
-              <!-- <img src="@/assets/img/hafidz.webp" alt="" /> -->
+              <!-- <img src="@/assets/img/fynrizky.webp" alt="" /> -->
             </div>
           </div>
         </div>
