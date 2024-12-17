@@ -88,7 +88,7 @@ export default {
         cat: "Front-end Web Development",
         img: "fynrizky-ngaji-quran.png",
         desc: "made using redux and typescript. request data to the server using axio, displays surah, listens to murotal and has a bookmark as marker.",
-        link: "https://fynrizky-ngaji-quran.vercel.app",
+        link: "https://fynrizky-quranku.vercel.app",
         tech: [
           "front-end/tailwind-css.svg",
           "front-end/javascript-1.svg",
@@ -104,7 +104,7 @@ export default {
           cat: "Front-end Web Development",
           img: "fynrizky-ngaji-quran.png",
           desc: "made using redux and typescript. request data to the server using axio, displays surah, listens to murotal and has a bookmark as marker.",
-          link: "https://fynrizky-ngaji-quran.vercel.app",
+          link: "https://fynrizky-quranku.vercel.app",
           tech: [
             "front-end/tailwind-css.svg",
             "front-end/javascript-1.svg",

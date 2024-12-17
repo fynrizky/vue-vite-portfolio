@@ -270,6 +270,10 @@ export default {
             icon: new URL('../assets/img/icon/back-end/postgresql.svg', import.meta.url).href,
           },
           {
+            name: "MySQL",
+            icon: new URL('../assets/img/icon/back-end/mysql-4.svg', import.meta.url).href,
+          },
+          {
             name: "Firebase",
             icon: new URL('../assets/img/icon/back-end/firebase-1.svg', import.meta.url).href,
           },
