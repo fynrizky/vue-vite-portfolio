@@ -5,7 +5,7 @@
             <div class="d-flex align-content-between align-items-center w-100 px-2">
                 <div class="w-50"></div>
                 <div class="w-50 px-3">
-                    <div class="form-check form-switch float-end" style="position: relative; z-index: ;10000001">
+                    <div class="form-check form-switch float-end" style="position: relative; z-index: 10000001;">
                         <i :style="status? 'color: black; font-size: 20px;' : 'color:yellow; text-shadow: 0 0 18px yellow; font-size:20px;'" :class="status ? 'fa fa-moon icon-i': 'fa fa-sun icon-i'"></i>
                         <input class="form-check-input pointer"
                             v-model="status"
