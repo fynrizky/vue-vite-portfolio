@@ -255,6 +255,7 @@
         Swal.fire({
           width: "100px",
           allowOutsideClick: false,
+          timer: 2000,
         });
         Swal.showLoading();
       },
