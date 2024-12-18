@@ -338,9 +338,7 @@ export default {
           width: "100px",
           allowOutsideClick: false,
           showConfirmButton: false,
-          html: `<div>
-            <img src="https://imgur.com/6Ghum7T" width="100%" alt="">
-            </div>`,
+          html: `<div><img src="https://drive.google.com/file/d/1DvFi7BrL4E3TMCTnmn9Y0MdphjujGfvp/view?usp=drivesdk" alt=""></div>`,
           timer: 5000,
       });
       // Swal.showLoading();
