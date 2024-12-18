@@ -253,13 +253,12 @@
     methods: {
       loading() {
         Swal.fire({
-          width: "600px",
+          width: "100px",
           allowOutsideClick: false,
-          showConfirmButton: false,
-          html: `<div><img src="https://drive.google.com/file/d/1DvFi7BrL4E3TMCTnmn9Y0MdphjujGfvp/view?usp=sharing" alt=""></div>`,
-          timer: 5000,
         });
-        // Swal.showLoading();
+        setTimeout(() => {
+          Swal.showLoading();
+        }, 2000);
       },
       customDate(d) {
         let day = d.substr(0, 10);
