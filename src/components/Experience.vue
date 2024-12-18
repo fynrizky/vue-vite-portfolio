@@ -253,7 +253,7 @@
     methods: {
       loading() {
         Swal.fire({
-          width: "100px",
+          width: "600px",
           allowOutsideClick: false,
           showConfirmButton: false,
           html: `<div><img src="https://drive.google.com/file/d/1DvFi7BrL4E3TMCTnmn9Y0MdphjujGfvp/view?usp=sharing" alt=""></div>`,
