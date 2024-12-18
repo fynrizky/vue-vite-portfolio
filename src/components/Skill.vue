@@ -338,7 +338,7 @@ export default {
           width: "100px",
           allowOutsideClick: false,
           showConfirmButton: false,
-          html: `<div><img src="https://drive.google.com/file/d/1DvFi7BrL4E3TMCTnmn9Y0MdphjujGfvp/view?usp=drivesdk" alt=""></div>`,
+          html: `<div><img src="https://drive.google.com/file/d/1DvFi7BrL4E3TMCTnmn9Y0MdphjujGfvp/view?usp=sharing" alt=""></div>`,
           timer: 5000,
       });
       // Swal.showLoading();
