@@ -249,15 +249,19 @@
           longitude: "",
         },
       };
-    },
+    },  
     methods: {
       loading() {
         Swal.fire({
           width: "100px",
           allowOutsideClick: false,
-          timer: 2000,
+          showConfirmButton: false,
+          html: `<div>
+            <img src="https://imgur.com/6Ghum7T" width="100%" alt="">
+            </div>`,
+          timer: 5000,
         });
-        Swal.showLoading();
+        // Swal.showLoading();
       },
       customDate(d) {
         let day = d.substr(0, 10);

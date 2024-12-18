@@ -256,7 +256,7 @@ export default {
         ],
         frontendfw: [
           {
-            name: "React_(JavaScript_library)",
+            name: "React_(software)",
             icon: new URL('../assets/img/icon/front-end/react-js.svg', import.meta.url).href,
           },
           {
@@ -335,10 +335,15 @@ export default {
     },
     loading() {
       Swal.fire({
-        width: "100px",
-        allowOutsideClick: false,
+          width: "100px",
+          allowOutsideClick: false,
+          showConfirmButton: false,
+          html: `<div>
+            <img src="https://imgur.com/6Ghum7T" width="100%" alt="">
+            </div>`,
+          timer: 5000,
       });
-      Swal.showLoading();
+      // Swal.showLoading();
     },
   },
   created() {},
