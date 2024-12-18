@@ -72,7 +72,7 @@ export default {
             function(){
                 this.loading = true;
             }.bind(this),
-            1000
+            5000
         );
     },
 

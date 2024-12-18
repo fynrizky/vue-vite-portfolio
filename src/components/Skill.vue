@@ -338,9 +338,7 @@ export default {
         width: "100px",
         allowOutsideClick: false,
       });
-      setTimeout(() => {
-        Swal.showLoading();
-      },2000);  
+      Swal.showLoading();
     },
   },
   created() {},

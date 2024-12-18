@@ -256,9 +256,7 @@
           width: "100px",
           allowOutsideClick: false,
         });
-        setTimeout(() => {
-          Swal.showLoading();
-        }, 2000);
+        Swal.showLoading();
       },
       customDate(d) {
         let day = d.substr(0, 10);
