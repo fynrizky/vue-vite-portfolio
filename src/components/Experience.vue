@@ -255,8 +255,13 @@
         Swal.fire({
           width: "100px",
           allowOutsideClick: false,
+          showConfirmButton: false,
+          didOpen: () => {
+            Swal.showLoading();
+          },
+          timer: 5000,
         });
-        Swal.showLoading();
+        // Swal.showLoading();
       },
       customDate(d) {
         let day = d.substr(0, 10);

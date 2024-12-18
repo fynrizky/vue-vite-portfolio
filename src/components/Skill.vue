@@ -337,8 +337,13 @@ export default {
       Swal.fire({
         width: "100px",
         allowOutsideClick: false,
+        showConfirmButton: false,
+        didOpen: () => {
+          Swal.showLoading();
+        },
+        timer: 5000,
       });
-      Swal.showLoading();
+      // Swal.showLoading();
     },
   },
   created() {},
