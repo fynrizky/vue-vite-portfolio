@@ -236,7 +236,7 @@
     name: "experienceComp",
     data() {
       return {
-        detaillink: "https://fynrizky.github.io/",
+        detaillink: "https://linktr.ee/_fynrizky",
         tab: 1,
         city: "Penjaringan Jakarta",
         localtime: "",
