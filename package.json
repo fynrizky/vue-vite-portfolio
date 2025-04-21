@@ -9,22 +9,22 @@
     "preview": "vite preview --port 8080"
   },
   "dependencies": {
-    "@splidejs/splide": "^4.0.17",
-    "@splidejs/vue-splide": "^0.6.10",
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/vue-splide": "^0.6.12",
     "aos": "^2.3.4",
     "axios": "^0.27.2",
-    "firebase": "^9.17.1",
-    "flag-icons": "^6.6.6",
-    "moment": "^2.29.4",
-    "moment-timezone": "^0.5.37",
-    "sweetalert2": "^11.4.32",
-    "vue": "^3.2.37",
-    "vue-router": "^4.1.5",
+    "firebase": "^9.23.0",
+    "flag-icons": "^6.15.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.48",
+    "sweetalert2": "^11.19.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
     "vue-writer": "^1.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.1.0",
-    "sass": "^1.54.9",
-    "vite": "^3.1.0"
+    "@vitejs/plugin-vue": "^3.2.0",
+    "sass": "^1.86.3",
+    "vite": "^3.2.11"
   }
 }
