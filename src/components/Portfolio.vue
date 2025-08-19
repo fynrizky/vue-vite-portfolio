@@ -100,6 +100,20 @@ export default {
       },
       list: [
         {
+          title: "Next-Wedding-Invitation",
+          cat: "Full Stack Web Development",
+          img: "next-w-invitation.png",
+          desc: "made using nextjs and typscript. responsive, mobile first. still in development. there will be feature for sending  greetings, and there are plans to create a custom user page.",
+          link: "https://next-w-invitation.vercel.app",
+          tech: [
+            "front-end/javascript-1.svg",
+            "front-end/tailwind-css.svg",
+            "front-end/react-js.svg",
+            "tools/typescript.svg",
+            "back-end/firebase-1.svg",
+          ],
+        },
+        {
           title: "Quran-Murotal",
           cat: "Front-end Web Development",
           img: "fynrizky-ngaji-quran.png",
